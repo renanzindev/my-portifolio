@@ -11,13 +11,13 @@ const ProjectsSection: React.FC = () => {
 
     const projects = [
         {
-            title: "Project Exemple",
-            subtitle: "Jul 2023 - Dez 2023",
-            srcImg: "/src/assets/images/project-trello.png",
-            description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras porta semper velit vel rutrum. Aliquam vulputate, nisi eget tristique mattis, nisi sem faucibus eros, a auctor felis sem ut mauris. Phasellus a ultrices elit. Curabitur ut diam eu orci auctor pretium.",
-            technologies: "Technologies: JavaScript, HTML, CSS, Canvas Graphics",
-            websiteURL: "https://trello.com/",
-            codeURL: "https://github.com/",
+            title: "Gerador de Senhas",
+            subtitle: "Jan 2025 - Fev 2025",
+            srcImg: "/src/assets/images/GeradorSenhas.png",
+            description: "Percebi, na empresa em que trabalho, a necessidade de um gerador de senhas; por esse motivo, desenvolvi uma solução própria, a qual utilizo semanalmente.",
+            technologies: "Tecnologias: JavaScript, HTML, CSS,",
+            websiteURL: "https://protect-senhaa.vercel.app/",
+            codeURL: "https://github.com/renanzindev/ProtectSenha",
         },
         {
             title: "Project Exemple",
@@ -52,7 +52,7 @@ const ProjectsSection: React.FC = () => {
         <StyledExperience>
             <Container maxWidth="lg">
                 <Box id="projects" pt={5} pb={3}>
-                    <Typography variant="h2" textAlign="center" color="primary.contrastText">Projects</Typography>
+                    <Typography variant="h2" textAlign="center" color="primary.contrastText">Projetos</Typography>
                 </Box>
                 <Grid container spacing={5} pb={3}>
                     {projects.map((project: ProjectCardProps, index: number) => (

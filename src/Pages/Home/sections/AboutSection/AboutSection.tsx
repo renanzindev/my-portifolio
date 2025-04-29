@@ -22,7 +22,7 @@ const AboutSection: React.FC = () => {
         <>
             <Container maxWidth="lg">
                 <Box id="about" pt={5} mb={3}>
-                    <Typography variant="h2" textAlign="center" >About me </Typography>
+                    <Typography variant="h2" textAlign="center" >Sobre </Typography>
                 </Box>
                 <Grid container spacing={2} display="flex" justifyContent="center" pb={3}>
                     <Grid item xs={9} md={2.5}>
@@ -64,7 +64,7 @@ const AboutSection: React.FC = () => {
                 </Box>
                 <hr />
                 <Box id="skills" pt={1} mb={3}>
-                    <Typography variant="h3" textAlign="center" fontWeight={300}>Skills</Typography>
+                    <Typography variant="h3" textAlign="center" fontWeight={300}>Habilidades</Typography>
                 </Box>
                 <Box mb={5}>
                     <Grid container spacing={3} justifyContent="center">

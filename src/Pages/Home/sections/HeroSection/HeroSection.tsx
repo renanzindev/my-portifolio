@@ -1,11 +1,11 @@
 import { Box, Container, Grid, Typography, styled } from "@mui/material"
 import { AnimatedBackground } from "../../../../components/AnimatedBackground/AnimatedBackground"
 import Typewriter from "../../../../components/Typewriter/Typewriter"
-import Avatar from "../../../../assets/images/avatar.png"
+import Avatar from "../../../../assets/images/teste2.png"
 import DownloadIcon from '@mui/icons-material/Download';
 import EmailIcon from '@mui/icons-material/Email';
 import StyledButton from "../../../../components/StyledButton/StyledButton";
-import CV from "../../../../assets/pdfs/Open.pdf"
+import CV from "../../../../assets/pdfs/Renan Augusto Curriculo.pdf"
 
 const HeroSection: React.FC = () => {
 
@@ -50,7 +50,7 @@ const HeroSection: React.FC = () => {
     const handleEmail = () => {
         const emailAddress = 'renancodes@gmail.com';
         const subject = 'Subject';
-        const body = 'Hello! I saw your portfolio...';
+        const body = 'Olá! Eu vi seu portfólio...';
 
         const mailtoLink = `mailto:${emailAddress}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
         window.open(mailtoLink);
@@ -73,9 +73,9 @@ const HeroSection: React.FC = () => {
                         </Grid>
                         <Grid item xs={12} md={7}>
                             <Typography color="primary.contrastText" variant="h1" pb={2} textAlign="center">
-                                Renan Augusto
+                                Renan Souza
                             </Typography>
-                            <Typewriter text="I'm a Junior Developer" delay={120} variant="h2" color="primary.contrastText" />
+                            <Typewriter text="Desenvolvedor Jr" delay={120} variant="h2" color="primary.contrastText" />
                             <Box mt={3}>
                                 <Grid container spacing={3} display="flex" justifyContent="center">
                                     <Grid item xs={10} md={4}>
@@ -90,7 +90,7 @@ const HeroSection: React.FC = () => {
                                         <StyledButton onClick={() => handleEmail()}>
                                             <EmailIcon />
                                             <Typography>
-                                                Contact me
+                                                Contato
                                             </Typography>
                                         </StyledButton>
                                     </Grid>
