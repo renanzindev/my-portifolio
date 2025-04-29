@@ -10,7 +10,7 @@ import { styled } from '@mui/material';
 
 export const StyledNavLink = styled("a")(() => ({
     textDecoration: "none",
-    color: "inherit"
+    color: "inherit",
 }));
 
 export const StyledMobileToolbar = styled(Toolbar)(({ theme }) => ({

@@ -15,23 +15,23 @@ const AboutSection: React.FC = () => {
     }));
 
     const skillsSet = [
-        "Javascript", "Typescript", "React", "Next", "Git", "HTML", "CSS", "Cypress", "AWS", "GCP", "Material UI", "Figma"
+        "Javascript", "React", "Next", "Git", "HTML", "CSS", "Tailwind", "Material UI", "Figma"
     ]
 
     return (
         <>
             <Container maxWidth="lg">
                 <Box id="about" pt={5} mb={3}>
-                    <Typography variant="h2" textAlign="center" >About me</Typography>
+                    <Typography variant="h2" textAlign="center" >About me </Typography>
                 </Box>
                 <Grid container spacing={2} display="flex" justifyContent="center" pb={3}>
                     <Grid item xs={9} md={2.5}>
                         <AnimationComponent moveDirection="right">
                             <StyledCard variant="outlined">
                                 <WorkspacePremiumIcon />
-                                <Typography textAlign="center" fontWeight={600}>Experience</Typography>
+                                <Typography textAlign="center" fontWeight={600}>Experiencia</Typography>
                                 <Typography textAlign="center">1+ years</Typography>
-                                <Typography textAlign="center">Frontend Development</Typography>
+                                <Typography textAlign="center">Assistente de TI</Typography>
                             </StyledCard>
                         </AnimationComponent>
                     </Grid>
@@ -39,9 +39,9 @@ const AboutSection: React.FC = () => {
                         <AnimationComponent moveDirection="left">
                             <StyledCard variant="outlined">
                                 <SchoolIcon />
-                                <Typography textAlign="center" fontWeight={600}>Education</Typography>
-                                <Typography textAlign="center">Bachelors Degree</Typography>
-                                <Typography textAlign="center">Electrical Engineer</Typography>
+                                <Typography textAlign="center" fontWeight={600}>Educação</Typography>
+                                <Typography textAlign="center">Diploma em tecnologo</Typography>
+                                <Typography textAlign="center">Tecnologia da informação</Typography>
                             </StyledCard>
                         </AnimationComponent>
 

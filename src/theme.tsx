@@ -4,7 +4,11 @@ import { createTheme, responsiveFontSizes } from '@mui/material/styles';
 let theme = createTheme({
     typography: {
         fontFamily: [
+           '"Roboto"', // Adiciona Roboto como a primeira opção
             '"Helvetica Neue"',
+            'Arial',
+            'sans-serif'
+            
         ].join(','),
     },
     palette: {
