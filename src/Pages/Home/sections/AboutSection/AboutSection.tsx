@@ -49,17 +49,11 @@ const AboutSection: React.FC = () => {
                 </Grid>
                 <Box pb={1}>
                     <Typography>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Cras porta semper velit vel rutrum.
-                        Aliquam vulputate, nisi eget tristique mattis, nisi sem faucibus eros, a auctor felis sem ut mauris.
-                        Phasellus a ultrices elit.
-                        Curabitur ut diam eu orci auctor pretium.
-                        Nullam ultricies erat quam, eget porta velit vehicula sit amet.
-                        Nullam sodales iaculis metus, sed vestibulum nisl vulputate at.
-                        Integer in pulvinar libero.
-                        Donec ornare est quis tortor varius efficitur.
-                        Maecenas sed erat quis felis facilisis pellentesque.
-                        Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam id felis convallis, luctus lorem eget, varius dolor.
+                    Sou Renan Augusto Souza Pinheiro de Oliveira, desenvolvedor focado em Front-end e Mobile, com conhecimentos em JavaScript e React. Sempre fui motivado pela vontade de criar minhas próprias soluções, o que me levou à programação.
+
+                    Já desenvolvi projetos pessoais como um Kanban para controle de atividades e um sistema completo para hamburgueria, passando pela seleção de produtos até a finalização do pedido.
+
+                    Valorizo a organização e a comunicação em equipe, e atualmente estou em busca da minha primeira oportunidade na área. Meu objetivo é crescer profissionalmente e, no futuro, atuar em projetos fora do Brasil.
                     </Typography>
                 </Box>
                 <hr />

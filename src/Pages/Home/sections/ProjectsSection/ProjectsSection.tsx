@@ -14,7 +14,7 @@ const ProjectsSection: React.FC = () => {
             title: "Gerador de Senhas",
             subtitle: "Jan 2025 - Fev 2025",
             srcImg: "/src/assets/images/GeradorSenhas.png",
-            description: "Percebi, na empresa em que trabalho, a necessidade de um gerador de senhas; por esse motivo, desenvolvi uma solução própria, a qual utilizo semanalmente.",
+            description: "Identifiquei, na empresa em que trabalho, a necessidade de um gerador de senhas e, por iniciativa própria, desenvolvi uma solução personalizada, que atualmente utilizo semanalmente.",
             technologies: "Tecnologias: JavaScript, HTML, CSS,",
             websiteURL: "https://protect-senhaa.vercel.app/",
             codeURL: "https://github.com/renanzindev/ProtectSenha",
