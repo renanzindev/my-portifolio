@@ -1,6 +1,9 @@
 import { Box, Container, Grid, Typography, styled } from "@mui/material";
 import ProjectCard, { ProjectCardProps } from "../../../../components/ProjectCard/ProjectCard";
 import AnimationComponent from "../../../../components/AnimationComponent/AnimationComponent";
+import GeradorSenhasImg from "../../../../assets/images/GeradorSenhas.png";
+import SorteioVoleiImg from "../../../../assets/images/SorteioVolei.png";
+import SandubaoImg from "../../../../assets/images/Sandubao.png";
 
 const ProjectsSection: React.FC = () => {
 
@@ -13,7 +16,7 @@ const ProjectsSection: React.FC = () => {
         {
             title: "Gerador de Senhas",
             subtitle: "Jan 2025 - Fev 2025",
-            srcImg: "/src/assets/images/GeradorSenhas.png",
+            srcImg: GeradorSenhasImg,
             description: "Identifiquei, na empresa em que trabalho, a necessidade de um gerador de senhas e, por iniciativa própria, desenvolvi uma solução personalizada, que atualmente utilizo semanalmente.",
             technologies: "Tecnologias: JavaScript, HTML, CSS,",
             websiteURL: "https://protect-senhaa.vercel.app/",
@@ -22,7 +25,7 @@ const ProjectsSection: React.FC = () => {
         {
             title: "Sorteador de Times de Vôlei",
             subtitle: "Jun 2025 - Ago 2025",
-            srcImg: "/src/assets/images/SorteioVolei.png",
+            srcImg: SorteioVoleiImg,
             description: "O Sorteador de Times de Vôlei é uma aplicação web que organiza partidas de forma prática e justa. Permite adicionar participantes, configurar o número de times e equilibrar a quantidade de homens e mulheres por equipe.",
             technologies: "Tecnologias: JavaScript, HTML5, CSS3,",
             websiteURL: "https://sorteio-volei.vercel.app/",
@@ -31,8 +34,8 @@ const ProjectsSection: React.FC = () => {
         {
             title: "Sandubão",
             subtitle: "Set 2024 - Out 2024",
-            srcImg: "/src/assets/images/Sandubao.png",
-            description: "O Sandubão é uma aplicação web de cardápio digital desenvolvida para lanchonetes e hamburguerias. O sistema apresenta os produtos de forma visual e organizada, com fotos, descrições, preços e a opção de adicionar ao pedido. Além do menu de sanduíches, conta com categorias como bebidas, combos e customizações, oferecendo uma experiência simples e intuitiva para o usuário.",
+            srcImg: SandubaoImg,
+            description: "O Sandubão é uma aplicação web de cardápio digital desenvolvida para lanchonetes e hamburguerias. O sistema apresenta os produtos de forma visual e organizada, com fotos, descrições, preços e a opção de adicionar ao pedido. Além do menu de sanduíches, conta com ...",
             technologies: "Tecnologias: JavaScript, HTML5, CSS3, React,",
             websiteURL: "https://sandubao3.vercel.app/",
             codeURL: "https://github.com/renanzindev/Sandubao3",
